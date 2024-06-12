@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="./assignmentcss.css">
+    <style>
+        h2,.btn{
+            text-align: center;
+        }
+        div{
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset><h2>Registration Form</h2>
+        <div>
+            <label for="Fname">First Name:</label>
+            <input type="text" placeholder="Enter First Name" id="Fname">
+        </div><div>
+            <label for="Lname">Last Name:</label>
+            <input type="text" placeholder="Enter Last Name" id="Lname">
+        </div><div>
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Enter Email address" id="email">
+        </div><div>
+            <label for="password">Password:</label>
+            <input type="password" id="password">
+        </div><div>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">Other
+        </div><div>
+            <label for="age">Age</label>
+            <input type="number" id="age">
+        </div><div>
+            <label for="prefer">Preferences:</label>
+                <label>Arcylic Painting</label><input type="checkbox">
+                <label>Oil Painting</label><input type="checkbox">
+                <label>Water Color Painting</label><input type="checkbox">
+        </div><div>
+            <label for="occp">Occupation</label>
+            <select name="occp" id="occp">
+                <option value="Student">Student</option>
+                <option value="Teacher">Teacher</option>
+                <option value="Doctor">Doctor</option>
+            </select>
+        </div><div>
+            <label for="bio">Bio:</label> 
+            <textarea name="bio" id="bio" placeholder="Share few lines about yourself..."></textarea>
+        </div>
+        <div class="btn">
+            <button>RESET</button>
+            <button>SUBMIT</button>
+        </div></fieldset>
+</body>
+</html>

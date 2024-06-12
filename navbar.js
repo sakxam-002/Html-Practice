@@ -3,3 +3,4 @@ function Navbar(){
         Navbar
     }
 }
+console.log("sample")
